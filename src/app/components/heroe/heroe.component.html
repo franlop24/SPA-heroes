@@ -1,1 +1,19 @@
-<p>heroe works!</p>
+<h1 class="animated fadeIn fast">{{ heroe.nombre }} <small>{{ heroe.aparicion }}</small></h1>
+
+<div class="row animated fadeIn">
+    <div class="col-md-4">
+        <img [src]="heroe.img" [alt]="heroe.img" class="img-fluid" alt="">
+        <br><br>
+        <a [routerLink]="['/heroes']" class="btn btn-outline-danger btn-block">Regresar</a>
+    </div>
+
+    <div class="col-md-8">
+        <h3>{{ heroe.nombre }}</h3>
+        <hr>
+        <p>{{ heroe.bio }}</p>
+        <div>
+            <img *ngIf="heroe.casa === 'DC'" src="assets/img/DC.jpg" alt="" class="img-logo">
+            <img *ngIf="heroe.casa != 'DC'" src="assets/img/marvel.png" alt="" class="img-logo">
+        </div>
+    </div>
+</div>
