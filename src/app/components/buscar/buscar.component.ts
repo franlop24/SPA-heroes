@@ -9,22 +9,19 @@ import { Heroe, HeroesService } from 'src/app/services/heroes.service';
 export class BuscarComponent implements OnInit {
 
   heroes: Heroe[] = [];
+  termino: string;
 
   constructor(
               private activatedRoute: ActivatedRoute,
-              private _heroeService: HeroesService,
-              private route: Router ) { 
+              private _heroeService: HeroesService ) { 
   }
 
   ngOnInit(): void {
     this.activatedRoute.params.subscribe( params => {
-      this.heroes = this._heroeService.buscarHeroes(params['termino']);
+      this.termino = params['termino'];
+      this.heroes = this._heroeService.buscarHeroes(this.termino);
       console.log(this.heroes);
     } );
-  }
-
-  verHeroe(idx:number){
-    this.route.navigate( ['/heroe', idx] );
   }
 
 }
