@@ -1,4 +1,6 @@
-<h1 class="animated fadeIn fast">{{ heroe.nombre }} <small>{{ heroe.aparicion }}</small></h1>
+<h1 class="animated fadeIn fast">
+    {{ heroe.nombre |uppercase }} <small>({{ heroe.aparicion | date:'y' }})</small>
+</h1>
 
 <div class="row animated fadeIn">
     <div class="col-md-4">
