@@ -10,5 +10,5 @@
   </div>
 </div>
 <div class="card-columns" *ngIf="heroes.length > 0">
-  <app-heroe-card [heroe]="heroe" [index]="i" *ngFor="let heroe of heroes; let i = index"></app-heroe-card>
+  <app-heroe-card [heroe]="heroe" [index]="heroe.idx" *ngFor="let heroe of heroes;"></app-heroe-card>
 </div>
