@@ -61,6 +61,14 @@ export class HeroesService {
       img: "assets/img/wolverine.png",
       aparicion: "1974-11-01",
       casa: "Marvel"
+    },
+    {
+      idx: 8,
+      nombre: "Iron Man",
+      bio: "Tony Stark, un millonario que crea un traje para salvar al mundo.",
+      img: "assets/img/iron.png",
+      aparicion: "1963-03-01",
+      casa: "Marvel"
     }
   ];
 
