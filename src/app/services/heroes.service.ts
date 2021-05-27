@@ -69,6 +69,14 @@ export class HeroesService {
       img: "assets/img/iron.png",
       aparicion: "1963-03-01",
       casa: "Marvel"
+    },
+    {
+      idx: 9,
+      nombre: "Invensible",
+      bio: "Invensible es el hijo de un veltronita mejor conocido como omniman el cual tiene poderes que lo vuelven... invensible",
+      img: "assets/img/invencible.jpg",
+      aparicion: "2021-05-01",
+      casa:"independiente"
     }
   ];
 
