@@ -77,6 +77,14 @@ export class HeroesService {
       img: "assets/img/invencible.jpg",
       aparicion: "2021-05-01",
       casa:"independiente"
+    },
+    {
+      idx: 10,
+      nombre: "Doctor Manhattan",
+      bio: "Considerado el superhéroe más poderoso de los cómics debido a su amplia variedad de poderes, básicamente un dios.",
+      img: "assets/img/doctor-manhattan.png",
+      aparicion: "1929-08-01",
+      casa: "DC Comics"
     }
   ];
 
