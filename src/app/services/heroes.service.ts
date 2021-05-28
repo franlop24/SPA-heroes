@@ -80,9 +80,9 @@ export class HeroesService {
     },
     {
       idx: 10,
-      nombre: "baby yoga",
+      nombre: "baby yoda",
       bio: "Se ve tierno",
-      img: "assets/img/invencible.jpg",
+      img: "assets/img/yoda.jpg",
       aparicion: "2021-05-01",
       casa:"independiente"
     }
