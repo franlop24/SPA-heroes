@@ -69,6 +69,14 @@ export class HeroesService {
       img: "assets/img/iron.png",
       aparicion: "1963-03-01",
       casa: "Marvel"
+    },
+    {
+      idx: 9,
+      nombre: "Edwing",
+      bio: "Posee fuerza sobrehumana, la capacidad de volar y la capacidad de realizar hechizos",
+      img: "assets/img/Edd.jpg",
+      aparicion: "2021-05-28",
+      casa: "Marvel"
     }
   ];
 
