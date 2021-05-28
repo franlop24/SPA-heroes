@@ -72,11 +72,19 @@ export class HeroesService {
     },
     {
       idx: 9,
+<<<<<<< HEAD
       nombre: "Edwing",
       bio: "Posee fuerza sobrehumana, la capacidad de volar y la capacidad de realizar hechizos",
       img: "assets/img/Edd.jpg",
       aparicion: "2021-05-28",
       casa: "Marvel"
+=======
+      nombre: "Invensible",
+      bio: "Invensible es el hijo de un veltronita mejor conocido como omniman el cual tiene poderes que lo vuelven... invensible",
+      img: "assets/img/invencible.jpg",
+      aparicion: "2021-05-01",
+      casa:"independiente"
+>>>>>>> bc696d188b6f4f213c2fa8917c0cd39987f75c8d
     }
   ];
 
