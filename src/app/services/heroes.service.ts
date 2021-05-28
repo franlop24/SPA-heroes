@@ -77,6 +77,14 @@ export class HeroesService {
       img: "assets/img/invencible.jpg",
       aparicion: "2021-05-01",
       casa:"independiente"
+    },
+    {
+      idx: 10,
+      nombre: "baby yoga",
+      bio: "Se ve tierno",
+      img: "assets/img/invencible.jpg",
+      aparicion: "2021-05-01",
+      casa:"independiente"
     }
   ];
 
