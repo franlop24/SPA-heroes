@@ -109,6 +109,14 @@ export class HeroesService {
       img: "assets/img/saitama.png",
       aparicion: "2021-05-01",
       casa:"independiente"
+    },
+    {
+      idx: 14,
+      nombre: "El Santo",
+      bio: "El santo es un super heroe mexicano, un idolo e indole de la lucha libre mexicana, protagonizando grandes peliculas",
+      img: "assets/img/santo.jpg",
+      aparicion: "2020-05-11",
+      casa:"CMLL-AAA"
     }
   ];
 
