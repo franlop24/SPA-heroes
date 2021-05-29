@@ -77,6 +77,14 @@ export class HeroesService {
       img: "assets/img/invencible.jpg",
       aparicion: "2021-05-01",
       casa:"independiente"
+    },
+    {
+      idx: 10,
+      nombre: "Goku",
+      bio: "El super heore mas fuerte que esta aqui",
+      img: "assets/img/Goku.png",
+      aparicion: "Desde la prehistoria",
+      casa:"Dragon Ball Super"
     }
   ];
 
