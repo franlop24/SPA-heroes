@@ -117,7 +117,15 @@ export class HeroesService {
       img: "assets/img/santo.jpg",
       aparicion: "2020-05-11",
       casa:"CMLL-AAA"
-    }
+    },
+    {
+      idx: 15,
+      nombre: "Goku",
+      bio: "El super heore mas fuerte que esta aqui",
+      img: "assets/img/Goku.png",
+      aparicion: "Desde la prehistoria",
+      casa:"Dragon Ball Super"
+    },
   ];
 
   constructor() { 
