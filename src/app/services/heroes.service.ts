@@ -93,7 +93,15 @@ export class HeroesService {
       img: "assets/img/yoda.jpg",
       aparicion: "2021-05-01",
       casa:"independiente"
-    }
+    },
+    {
+      idx: 12,
+      nombre: "Edwing",
+      bio: "Posee fuerza sobrehumana, la capacidad de volar y la capacidad de realizar hechizos",
+      img: "assets/img/Edd.jpg",
+      aparicion: "2021-05-28",
+      casa: "Marvel"
+    },
   ];
 
   constructor() { 
