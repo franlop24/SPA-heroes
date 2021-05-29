@@ -72,20 +72,36 @@ export class HeroesService {
     },
     {
       idx: 9,
-<<<<<<< HEAD
-      nombre: "Edwing",
-      bio: "Posee fuerza sobrehumana, la capacidad de volar y la capacidad de realizar hechizos",
-      img: "assets/img/Edd.jpg",
-      aparicion: "2021-05-28",
-      casa: "Marvel"
-=======
       nombre: "Invensible",
       bio: "Invensible es el hijo de un veltronita mejor conocido como omniman el cual tiene poderes que lo vuelven... invensible",
       img: "assets/img/invencible.jpg",
       aparicion: "2021-05-01",
       casa:"independiente"
->>>>>>> bc696d188b6f4f213c2fa8917c0cd39987f75c8d
-    }
+    },
+    {
+      idx: 10,
+      nombre: "Doctor Manhattan",
+      bio: "Considerado el superhéroe más poderoso de los cómics debido a su amplia variedad de poderes, básicamente un dios.",
+      img: "assets/img/doctor-manhattan.png",
+      aparicion: "1929-08-01",
+      casa: "DC Comics"
+    },
+    {
+      idx: 11,
+      nombre: "baby yoda",
+      bio: "Se ve tierno",
+      img: "assets/img/yoda.jpg",
+      aparicion: "2021-05-01",
+      casa:"independiente"
+    },
+    {
+      idx: 12,
+      nombre: "Edwing",
+      bio: "Posee fuerza sobrehumana, la capacidad de volar y la capacidad de realizar hechizos",
+      img: "assets/img/Edd.jpg",
+      aparicion: "2021-05-28",
+      casa: "Marvel"
+    },
   ];
 
   constructor() { 
