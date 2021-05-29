@@ -85,6 +85,14 @@ export class HeroesService {
       img: "assets/img/doctor-manhattan.png",
       aparicion: "1929-08-01",
       casa: "DC Comics"
+    },
+    {
+      idx: 11,
+      nombre: "baby yoda",
+      bio: "Se ve tierno",
+      img: "assets/img/yoda.jpg",
+      aparicion: "2021-05-01",
+      casa:"independiente"
     }
   ];
 
