@@ -79,7 +79,39 @@ export class HeroesService {
       casa:"independiente"
     },
     {
+      idx: 10,
+      nombre: "Doctor Manhattan",
+      bio: "Considerado el superhéroe más poderoso de los cómics debido a su amplia variedad de poderes, básicamente un dios.",
+      img: "assets/img/doctor-manhattan.png",
+      aparicion: "1929-08-01",
+      casa: "DC Comics"
+    },
+    {
       idx: 11,
+      nombre: "baby yoda",
+      bio: "Se ve tierno",
+      img: "assets/img/yoda.jpg",
+      aparicion: "2021-05-01",
+      casa:"independiente"
+    },
+    {
+      idx: 12,
+      nombre: "Edwing",
+      bio: "Posee fuerza sobrehumana, la capacidad de volar y la capacidad de realizar hechizos",
+      img: "assets/img/Edd.jpg",
+      aparicion: "2021-05-28",
+      casa: "Marvel"
+    },
+    {
+      idx: 13,
+      nombre: "Saitama",
+      bio: "Ser humano que tiene capacidades sobre humanas, siendo el hombre mas fuerte del mundo. Derrota a todos de un solo golpe.",
+      img: "assets/img/saitama.png",
+      aparicion: "2021-05-01",
+      casa:"independiente"
+    },
+    {
+      idx: 14,
       nombre: "El Santo",
       bio: "El santo es un super heroe mexicano, un idolo e indole de la lucha libre mexicana, protagonizando grandes peliculas",
       img: "assets/img/santo.jpg",
