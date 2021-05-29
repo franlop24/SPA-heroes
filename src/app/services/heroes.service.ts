@@ -102,6 +102,14 @@ export class HeroesService {
       aparicion: "2021-05-28",
       casa: "Marvel"
     },
+    {
+      idx: 13,
+      nombre: "Saitama",
+      bio: "Ser humano que tiene capacidades sobre humanas, siendo el hombre mas fuerte del mundo. Derrota a todos de un solo golpe.",
+      img: "assets/img/saitama.png",
+      aparicion: "2021-05-01",
+      casa:"independiente"
+    }
   ];
 
   constructor() { 
