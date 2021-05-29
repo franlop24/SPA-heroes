@@ -77,6 +77,14 @@ export class HeroesService {
       img: "assets/img/invencible.jpg",
       aparicion: "2021-05-01",
       casa:"independiente"
+    },
+    {
+      idx: 10,
+      nombre: "Saitama",
+      bio: "Ser humano que tiene capacidades sobre humanas, siendo el hombre mas fuerte del mundo. Derrota a todos de un solo golpe.",
+      img: "assets/img/saitama.png",
+      aparicion: "2021-05-01",
+      casa:"independiente"
     }
   ];
 
