@@ -126,6 +126,14 @@ export class HeroesService {
       aparicion: "Desde la prehistoria",
       casa:"Dragon Ball Super"
     },
+    {
+      idx: 16,
+      nombre: "Ghost Rider",
+      bio: "Ghost Rider es la combinación entre lo sobrenatural y el huésped humano experimentado motociclista Johnny Blaze y Zarathos la entidad demoníaca.",
+      img: "assets/img/ghostrider.png",
+      aparicion: "1972-08-05",
+      casa: "Marvel"
+    }
   ];
 
   constructor() { 
