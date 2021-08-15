@@ -61,6 +61,78 @@ export class HeroesService {
       img: "assets/img/wolverine.png",
       aparicion: "1974-11-01",
       casa: "Marvel"
+    },
+    {
+      idx: 8,
+      nombre: "Iron Man",
+      bio: "Tony Stark, un millonario que crea un traje para salvar al mundo.",
+      img: "assets/img/iron.png",
+      aparicion: "1963-03-01",
+      casa: "Marvel"
+    },
+    {
+      idx: 9,
+      nombre: "Invensible",
+      bio: "Invensible es el hijo de un veltronita mejor conocido como omniman el cual tiene poderes que lo vuelven... invensible",
+      img: "assets/img/invencible.jpg",
+      aparicion: "2021-05-01",
+      casa:"independiente"
+    },
+    {
+      idx: 10,
+      nombre: "Doctor Manhattan",
+      bio: "Considerado el superhéroe más poderoso de los cómics debido a su amplia variedad de poderes, básicamente un dios.",
+      img: "assets/img/doctor-manhattan.png",
+      aparicion: "1929-08-01",
+      casa: "DC Comics"
+    },
+    {
+      idx: 11,
+      nombre: "baby yoda",
+      bio: "Se ve tierno",
+      img: "assets/img/yoda.jpg",
+      aparicion: "2021-05-01",
+      casa:"independiente"
+    },
+    {
+      idx: 12,
+      nombre: "Edwing",
+      bio: "Posee fuerza sobrehumana, la capacidad de volar y la capacidad de realizar hechizos",
+      img: "assets/img/Edd.jpg",
+      aparicion: "2021-05-28",
+      casa: "Marvel"
+    },
+    {
+      idx: 13,
+      nombre: "Saitama",
+      bio: "Ser humano que tiene capacidades sobre humanas, siendo el hombre mas fuerte del mundo. Derrota a todos de un solo golpe.",
+      img: "assets/img/saitama.png",
+      aparicion: "2021-05-01",
+      casa:"independiente"
+    },
+    {
+      idx: 14,
+      nombre: "El Santo",
+      bio: "El santo es un super heroe mexicano, un idolo e indole de la lucha libre mexicana, protagonizando grandes peliculas",
+      img: "assets/img/santo.jpg",
+      aparicion: "2020-05-11",
+      casa:"CMLL-AAA"
+    },
+    {
+      idx: 15,
+      nombre: "Goku",
+      bio: "El super heore mas fuerte que esta aqui",
+      img: "assets/img/Goku.png",
+      aparicion: "Desde la prehistoria",
+      casa:"Dragon Ball Super"
+    },
+    {
+      idx: 16,
+      nombre: "Ghost Rider",
+      bio: "Ghost Rider es la combinación entre lo sobrenatural y el huésped humano experimentado motociclista Johnny Blaze y Zarathos la entidad demoníaca.",
+      img: "assets/img/ghostrider.png",
+      aparicion: "1972-08-05",
+      casa: "Marvel"
     }
   ];
 
